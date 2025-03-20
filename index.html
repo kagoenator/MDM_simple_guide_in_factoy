@@ -2,25 +2,23 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  <!-- 删除多余空格 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- 修正拼写错误 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>企业主数据知识库</title>
-  <!-- 强制HTTPS协议，修复CDN加载问题 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
-  <!-- 补充Docsify必要插件 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script>
     window.$docsify = {
       name: "主数据管理指南",
       repo: "https://github.com/kagoenator/MDM_simple_guide_in_factoy/",
-      loadSidebar: "_sidebar.md", //明确侧边栏路径
+      loadSidebar: "_sidebar.md",
       subMaxLevel: 3,
       search: "auto",
-      basePath: "./",            // 明确基路径，防止路径问题
+      basePath: "",  // 从 docs 根目录加载
     }
   </script>
 </body>
