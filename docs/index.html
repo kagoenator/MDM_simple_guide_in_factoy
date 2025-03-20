@@ -15,11 +15,12 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script>
     window.$docsify = {
-      name: "主数据管理指南",  // 页面标题增强
+      name: "主数据管理指南",
       repo: "https://github.com/kagoenator/MDM_simple_guide_in_factoy/",
-      loadSidebar: true,
+      loadSidebar: "_sidebar.md", //明确侧边栏路径
       subMaxLevel: 3,
-      search: "auto",        // 启用全文搜索
+      search: "auto",
+      basePath: "./",            // 明确基路径，防止路径问题
     }
   </script>
 </body>
