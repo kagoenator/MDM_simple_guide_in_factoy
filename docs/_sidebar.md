@@ -1,8 +1,9 @@
 - [首页](README.md)
 - [关于](about.md)
 - 主数据管理
-  - [主数据定义](MDM1_definition.md)
-  - [产品主数据全貌](MDM2_general.md)
-  - [生产工艺属性模板](MDM3_template.md)
-  - [标准工时规则](MDM4_std_cycletime.md)
-  - [工艺路线模板](MDM5_processPath.md)
+  - [主数据定义](intro/MDM1_definition.md)
+  - [产品主数据全貌](intro/MDM2_general.md)
+  - [生产工艺属性模板](prod/MDM3_template.md)
+  - [标准工时规则](prod/MDM4_std_cycletime.md)
+  - [工艺路线模板](prod/MDM5_processPath.md)
+
