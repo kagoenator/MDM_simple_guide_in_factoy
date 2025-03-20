@@ -15,10 +15,11 @@
     window.$docsify = {
       name: "主数据管理指南",
       repo: "https://github.com/kagoenator/MDM_simple_guide_in_factoy/",
-      loadSidebar: "_sidebar.md",
+      loadSidebar: "docs/_sidebar.md",  // 明确加载sidebar路径
       subMaxLevel: 3,
       search: "auto",
-      basePath: "",  // 从 docs 根目录加载
+      basePath: "docs/",                // 从 docs目录加载所有md文件
+      homepage: "README.md"             // docs中的README.md作为首页
     }
   </script>
 </body>
