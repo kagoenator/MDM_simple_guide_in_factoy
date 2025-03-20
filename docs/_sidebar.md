@@ -7,4 +7,5 @@ echo '- [首页](README.md)
   - [生产工艺属性模板](MDM3_template.md)
   - [标准工时规则](MDM4_std_cycletime.md)
   - [工艺路线模板](MDM5_processPath.md)
+
 ' > docs/_sidebar.md
